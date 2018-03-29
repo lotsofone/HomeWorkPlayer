@@ -32,6 +32,11 @@ namespace HomeworkPlayer
             {
                 var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
                 mainplayer.SetSource(stream, file.ContentType);
+                musicpic.Opacity = 100;
+            }
+            else
+            {
+                return;
             }
         }
 

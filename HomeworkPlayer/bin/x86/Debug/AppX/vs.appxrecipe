@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T09:56:43.268</Modified>
+      <Modified>2018-03-29T14:44:59.808</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\HomeworkPlayer.exe">
       <PackagePath>entrypoint\HomeworkPlayer.exe</PackagePath>
-      <Modified>2018-03-29T09:56:42.688</Modified>
+      <Modified>2018-03-29T14:44:59.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,6 +495,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T14:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\Assets\music.jpg">
+      <PackagePath>Assets\music.jpg</PackagePath>
+      <Modified>2018-03-29T14:29:21.102</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-28T15:23:44.036</Modified>
@@ -535,7 +539,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\HomeworkPlayer.xr.xml">
       <PackagePath>HomeworkPlayer.xr.xml</PackagePath>
-      <Modified>2018-03-29T09:07:55.369</Modified>
+      <Modified>2018-03-29T14:44:58.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +548,11 @@
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T09:50:24.079</Modified>
+      <Modified>2018-03-29T14:44:59.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\Core\HomeworkPlayer.exe">
       <PackagePath>HomeworkPlayer.exe</PackagePath>
-      <Modified>2018-03-29T09:56:43.256</Modified>
+      <Modified>2018-03-29T14:44:59.801</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

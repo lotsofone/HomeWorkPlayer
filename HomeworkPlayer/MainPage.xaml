@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Black">
         <MediaElement Name="mainplayer"  HorizontalAlignment="Left" Height="auto" VerticalAlignment="Top" Width="auto" AutoPlay="True"
 AreTransportControlsEnabled="True" RightTapped="mainplayer_RightTapped">
             <FlyoutBase.AttachedFlyout>
@@ -16,6 +16,7 @@ AreTransportControlsEnabled="True" RightTapped="mainplayer_RightTapped">
                 </MenuFlyout>
             </FlyoutBase.AttachedFlyout>
         </MediaElement>
+        <Image Name="musicpic" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Source="Assets/music.jpg" RequestedTheme="Default" Canvas.ZIndex="-1" Opacity="0"/>
 
     </Grid>
 </Page>
