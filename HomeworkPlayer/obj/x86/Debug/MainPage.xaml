@@ -11,8 +11,8 @@
         <MediaElement x:ConnectionId='1' Name="mainplayer"  HorizontalAlignment="Left" Height="auto" VerticalAlignment="Top" Width="auto" AutoPlay="True"
 AreTransportControlsEnabled="True"                                     >
             <FlyoutBase.AttachedFlyout>
-                <MenuFlyout>
-                    <MenuFlyoutItem x:ConnectionId='2' Text="选择文件" Tag="选择文件"                          />
+                <MenuFlyout x:ConnectionId='2' x:Name="mainmenu">
+                    <MenuFlyoutItem x:ConnectionId='3' Text="选择文件" Tag="选择文件"                          />
                 </MenuFlyout>
             </FlyoutBase.AttachedFlyout>
         </MediaElement>

@@ -36,7 +36,8 @@ namespace HomeworkPlayer
 
         private void mainplayer_RightTapped(object sender, Windows.UI.Xaml.Input.RightTappedRoutedEventArgs e)
         {
-            Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAttachedFlyout((FrameworkElement)sender);
+            mainmenu.ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
+            //Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAttachedFlyout((FrameworkElement)sender);
         }
     }
 }
