@@ -25,6 +25,7 @@ namespace HomeworkPlayer
             picker.ViewMode = PickerViewMode.Thumbnail;
 
             picker.FileTypeFilter.Add(".mp4");
+            picker.FileTypeFilter.Add(".mp3");
             StorageFile file = await picker.PickSingleFileAsync();
 
             if (file != null)
