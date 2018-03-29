@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T02:41:54.646</Modified>
+      <Modified>2018-03-29T09:45:03.299</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\HomeworkPlayer.exe">
       <PackagePath>entrypoint\HomeworkPlayer.exe</PackagePath>
-      <Modified>2018-03-29T02:41:54.370</Modified>
+      <Modified>2018-03-29T09:45:02.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,7 +535,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\HomeworkPlayer.xr.xml">
       <PackagePath>HomeworkPlayer.xr.xml</PackagePath>
-      <Modified>2018-03-29T01:47:02.206</Modified>
+      <Modified>2018-03-29T09:07:55.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T02:05:36.539</Modified>
+      <Modified>2018-03-29T09:45:03.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\EUPS\HomeworkPlayer\HomeworkPlayer\bin\x86\Debug\Core\HomeworkPlayer.exe">
       <PackagePath>HomeworkPlayer.exe</PackagePath>
-      <Modified>2018-03-29T02:41:54.641</Modified>
+      <Modified>2018-03-29T09:45:03.293</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
