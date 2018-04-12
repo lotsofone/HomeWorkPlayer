@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="HomeworkPlayer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HomeworkPlayer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <MediaElement x:ConnectionId='1' Name="mainplayer"  HorizontalAlignment="Left" Height="auto" VerticalAlignment="Top" Width="auto" AutoPlay="True"
+AreTransportControlsEnabled="True"                                     >
+            <FlyoutBase.AttachedFlyout>
+                <MenuFlyout x:ConnectionId='3' x:Name="mainmenu">
+                    <MenuFlyoutItem x:ConnectionId='4' Text="选择本地文件" Tag="选择本地文件"                          />
+                    <MenuFlyoutItem x:ConnectionId='5' Text="选择在线文件" Tag="选择在线文件"                          >
+                        <FlyoutBase.AttachedFlyout>
+                            <Flyout x:ConnectionId='6' x:Name="selectfile">
+                                <StackPanel Width="auto">
+                                    <TextBlock>输入链接</TextBlock>
+                                    <TextBox x:ConnectionId='7' x:Name="selectfiletext" Width="auto" Text="http://www.neu.edu.cn/indexsource/neusong.mp3"></TextBox>
+                                    <Button x:ConnectionId='8' x:Name="selectfileplay"                                     Content="播放"></Button>
+                                    <Button x:ConnectionId='9' x:Name="selectfiledownload"                                     Content="下载"></Button>
+                                </StackPanel>
+                            </Flyout>
+                        </FlyoutBase.AttachedFlyout>
+                    </MenuFlyoutItem>
+                </MenuFlyout>
+            </FlyoutBase.AttachedFlyout>
+        </MediaElement>
+        <Image x:ConnectionId='2' Name="musicpic" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Source="Assets/music.jpg" RequestedTheme="Default" Canvas.ZIndex="-1" Opacity="0"/>
+
+    </Grid>
+</Page>
+

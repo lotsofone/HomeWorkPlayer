@@ -12,7 +12,8 @@
 AreTransportControlsEnabled="True"                                     >
             <FlyoutBase.AttachedFlyout>
                 <MenuFlyout x:ConnectionId='3' x:Name="mainmenu">
-                    <MenuFlyoutItem x:ConnectionId='4' Text="选择文件" Tag="选择文件"                          />
+                    <MenuFlyoutItem x:ConnectionId='4' Text="选择本地文件" Tag="选择本地文件"                          />
+                  <MenuFlyoutItem x:ConnectionId='5' Text="播放在线校歌" Tag="播放在线校歌"                          ></MenuFlyoutItem>
                 </MenuFlyout>
             </FlyoutBase.AttachedFlyout>
         </MediaElement>
