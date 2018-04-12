@@ -17,10 +17,10 @@ AreTransportControlsEnabled="True"                                     >
                         <FlyoutBase.AttachedFlyout>
                             <Flyout x:ConnectionId='6' x:Name="selectfile">
                                 <StackPanel Width="auto">
-                                    <TextBlock>输入链接</TextBlock>
-                                    <TextBox x:ConnectionId='7' x:Name="selectfiletext" Width="auto" Text="http://www.neu.edu.cn/indexsource/neusong.mp3"></TextBox>
-                                    <Button x:ConnectionId='8' x:Name="selectfileplay"                                     Content="播放"></Button>
-                                    <Button x:ConnectionId='9' x:Name="selectfiledownload"                                     Content="下载"></Button>
+                                    <TextBlock x:ConnectionId='7' x:Name="selectfileinfo">输入链接</TextBlock>
+                                    <TextBox x:ConnectionId='8' x:Name="selectfiletext" Width="auto" Text="http://www.neu.edu.cn/indexsource/neusong.mp3"></TextBox>
+                                    <Button x:ConnectionId='9' x:Name="selectfileplay"                                     Content="播放"></Button>
+                                    <Button x:ConnectionId='10' x:Name="selectfiledownload"                                     Content="下载"></Button>
                                 </StackPanel>
                             </Flyout>
                         </FlyoutBase.AttachedFlyout>

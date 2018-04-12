@@ -48,6 +48,7 @@ namespace HomeworkPlayer
                     }
                     break;
                 case "选择在线文件":
+                    selectfileinfo.Text = "输入链接";
                     selectfile.ShowAt(mainplayer);
                     break;
             }
@@ -56,7 +57,6 @@ namespace HomeworkPlayer
         private void mainplayer_RightTapped(object sender, Windows.UI.Xaml.Input.RightTappedRoutedEventArgs e)
         {
             mainmenu.ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
-            //Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAttachedFlyout((FrameworkElement)sender);
         }
 
         private async void selectfilebutton_ClickAsync(object sender, RoutedEventArgs e)
@@ -66,6 +66,7 @@ namespace HomeworkPlayer
             {
                 mainplayer.Source = uri;
                 musicpic.Opacity = 100;
+                selectfileinfo.Text = "正在播放";
             }
             else//下载文件
             {
@@ -86,18 +87,19 @@ namespace HomeworkPlayer
                         }
                         catch (Exception ex)
                         {
+                            selectfileinfo.Text = "下载失败";
                             return;
                         }
                     
                         await FileIO.WriteBufferAsync(musicFile, buffer);
+                        selectfileinfo.Text = "下载完成";
                     }
                 }
                 catch(Exception ex)
                 {
-
+                    selectfileinfo.Text = "文件已存在";
                 }
             }
-            selectfile.Hide();
         }
     }
 }

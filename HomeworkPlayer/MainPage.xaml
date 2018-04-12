@@ -17,7 +17,7 @@ AreTransportControlsEnabled="True" RightTapped="mainplayer_RightTapped">
                         <FlyoutBase.AttachedFlyout>
                             <Flyout x:Name="selectfile">
                                 <StackPanel Width="auto">
-                                    <TextBlock>输入链接</TextBlock>
+                                    <TextBlock x:Name="selectfileinfo">输入链接</TextBlock>
                                     <TextBox x:Name="selectfiletext" Width="auto" Text="http://www.neu.edu.cn/indexsource/neusong.mp3"></TextBox>
                                     <Button x:Name="selectfileplay" Click="selectfilebutton_ClickAsync" Content="播放"></Button>
                                     <Button x:Name="selectfiledownload" Click="selectfilebutton_ClickAsync" Content="下载"></Button>
